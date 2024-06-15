@@ -1,0 +1,278 @@
+body {
+    margin: 0px;
+    font-family: 'Sunflower', sans-serif;
+}
+
+.navbar::before {
+    left: 0px;
+    right: 0px;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: url("https://www.wallpapermania.eu/images/lthumbs/2017-05/9411_Dark-dice-on-a-grey-background-HD-wallpaper.jpg") no-repeat center center/cover;
+    height: 36rem;
+    width: 100%;
+}
+
+#heading {
+    font-size: 4rem;
+    margin-top: 124px;
+    margin-left: -277px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: whitesmoke;
+    position: relative;
+    animation-name: heading;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in;
+}
+
+@keyframes heading {
+
+    from {
+        color: whitesmoke;
+    }
+
+    to {
+        color: rgb(39, 38, 38);
+    }
+}
+
+.navbar {
+    /* margin-top: 2rem; */
+    padding: 4px;
+    text-align: center;
+}
+
+.item {
+
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.item:hover {
+    color: grey;
+}
+
+#item1 {
+    position: absolute;
+    display: block;
+    color: rgb(131, 130, 130);
+    font-family: 'Aclonica', sans-serif;
+    font-size: 24px;
+    float: left;
+}
+
+#item1:hover {
+    animation-name: item1h;
+    animation-duration: 3s;
+    animation-fill-mode: none;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+
+@keyframes item1h {
+    from {
+        font-size: 24px;
+    }
+
+    to {
+        font-size: 30px;
+    }
+}
+
+#item3,
+#item4 {
+    padding-left: 14px;
+    float: right;
+}
+
+.navbar2 {
+    margin-top: 18rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(131, 130, 130); */
+    width: 100%;
+}
+
+.itema {
+
+    border-bottom: 1px solid rgb(131, 130, 130);
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: grey;
+}
+
+.itema:hover {
+    text-shadow: 5px 1px 5px gray;
+    color: rgb(32, 32, 32);
+}
+
+.container1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.imga:hover {
+    box-shadow: -7px -7px 16px 1px grey;
+}
+
+.imga {
+    width: 40%;
+    height: 317px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+h3 {
+    border-bottom: 1px solid rgb(78, 76, 76);
+    color: rgb(78, 76, 76);
+    margin: 0px;
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.imgb:hover {
+    box-shadow: -7px -7px 16px 1px grey;
+}
+
+.imgb {
+    width: 40%;
+    height: 317px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.container3 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.imgc:hover {
+    box-shadow: -7px -7px 16px 1px grey;
+}
+
+.imgc {
+    width: 40%;
+    height: 317px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.container4 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.imgd:hover {
+    box-shadow: -7px -7px 16px 1px grey;
+}
+
+.imgd {
+    width: 40%;
+    height: 317px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.container5 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.imge:hover {
+    box-shadow: -7px -7px 16px 1px grey;
+}
+
+.imge {
+    width: 40%;
+    height: 317px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.container6 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.imgf:hover {
+    box-shadow: -7px -7px 16px 1px grey;
+}
+
+.imgf {
+    width: 40%;
+    height: 317px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footernav {
+    padding: 9px;
+    background-color: rgb(94, 91, 91);
+}
+
+.fitem {
+    font-size: medium;
+    text-decoration: none;
+    color: whitesmoke;
+    padding-left: 10px;
+}
+
+.fitem:hover {
+    color: rgb(32, 32, 32);
+}
+
+#fitem2,
+#about {
+
+    float: right;
+}
+
+
+.footerb {
+    background-color: rgb(124, 122, 122);
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 545px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.footerbox {
+    margin-top: 10px;
+    text-align: center;
+    /* border: 2px solid red; */
+    width: 20%;
+    height: 300px;
+}
+
+#footerbox2 input {
+    border: 3px solid rgb(77, 75, 75);
+    height: 100px;
+}
+
+#footerbox3 a {
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    border-bottom: 1px solid black;
+}
